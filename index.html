@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<!--
+	Striped by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license
+-->
+<html>
+	<head>
+		<title>Md. Murad Mia - Project Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Content -->
+			<div id="content">
+				<div class="inner">
+
+					<!-- Main Project Post -->
+						<article class="box post post-excerpt">
+							<header>
+								<h2 style="text-align: center;"><a href="#">A Smart IoT-Based Automatic Load Sharing Transformer System</a></h2>
+								<p style="text-align: center; font-weight: bold;">Department of Electrical & Electronic Engineering (EEE)</p>
+                                                                <p style="text-align: center; font-weight: bold;">Rajshahi University of Engineering & Technology (RUET)<br><br></p>
+                                                               
+
+                                                                <p style="text-align: left; font-size: 1.2em; font-weight: bold; color: #555; margin-bottom: 25px;">
+                                                                Project Members: <br>
+                                                                1. Md. Murad Mia (ID: 2201139) <br>
+                                                                2. Md. Mehadi Hasan Emon (ID: 2201140) <br>
+                                                                3. Mahin (ID: 2201141)
+                                                                </p>
+							</header>
+
+							<!-- Image Box 1: Experimental Setup -->
+                                                        <h3>Experimental Setup & App Interface:<br></h3>
+							<a href="#" class="image featured"><img src="images/pic1.png" alt="Experimental Setup & App Interface" /></a>
+
+							<h3>Abstract:</h3>
+							<p style="text-align: justify;">
+								 This project presents a Smart IoT-Based Automatic Load-Sharing Transformer System designed to improve transformer reliability and utilization. An ESP32 microcontroller continuously monitors voltage, current, and power using sensors. When the main transformer approaches its predefined load limit, an auxiliary transformer is automatically connected to share the load. IoT integration enables real-time remote monitoring and control, helping prevent overloading, reduce overheating, improve efficiency, and ensure reliable power delivery.
+							</p>
+
+							<h3>Project Background:</h3>
+							<p style="text-align: justify;">
+								 Distribution transformers often face uneven and fluctuating loads, causing overloading, overheating, efficiency loss, and reduced lifespan. Conventional load management depends largely on manual intervention and offers limited real-time monitoring. This project develops a Smart IoT-Based Automatic Load-Sharing Transformer System that continuously monitors load conditions and automatically shares excess load between transformers, improving reliability, operational efficiency, transformer protection, and reducing the risk of unexpected power interruptions.
+							</p>
+
+							<h3>Objectives:</h3>
+							<ol>
+								<li>To design an automatic transformer load-sharing system.</li>
+								<li>To automatically transfer excess load using relays.</li>
+								<li>To improve transformer reliability and power supply continuity.</li>
+							</ol>
+
+							<h3>Required Components:</h3>
+							<ul>
+								<li>Two Center Tap Transformer</li>
+								<li>Two Full Wave Bridge Rectifier</li>
+								<li>Current Sensor - ACS 712</li>
+								<li>Voltage Sensor - ZMPT101b</li>
+								<li>Relay Module</li>
+								<li>ESP32</li>
+								<li>I2C Display</li>
+								<li>Loads (Motors)</li>
+							</ul>
+
+							<!-- Image Box 2: Block Diagram -->
+							<h3>System Block Diagram:<br></h3>
+							<a href="#" class="image featured"><img src="images/pic2.PNG" alt="System Block Diagram" /></a>
+
+							<h3>Methodology:</h3>
+							<ol>
+								<li>Two 230/12 V transformers were connected as the main and auxiliary transformers, and the load was controlled through an ESP 32-based relay switching system.</li>
+								<li>Load voltage and current were measured using ZMPT101B voltage and ACS712 current sensors, respectively.</li>
+								<li>Two full-wave bridge rectifiers and voltage regulator were used to obtain a regulated DC supply for the control circuit.</li>
+								<li>Four motors were used as prototype loads, with load conditions varied using switches.</li>
+								<li>When the load exceeded the predefined threshold, the auxiliary transformer was automatically activated through the relay.</li>
+								<li>Voltage, current, power, and transformer status were displayed on an LCD and monitored/controlled wirelessly through Bluetooth using an IoT interface.</li>
+							</ol>
+
+							<h3>Results and Discussion:</h3>
+							<p style="text-align: justify;">
+								The developed system was successfully tested under different load conditions. At normal load, Transformer-1 supplied both loads with stable 12 V output. When the total power exceeded the predefined 6.5 W threshold, the ESP-32 activated the relay and transferred one load to Transformer-2. Stable relay switching and continuous load operation were observed. The results demonstrated that automatic load sharing effectively reduced transformer overloading and improved system reliability and continuity of power supply.
+							</p>
+
+							<h3>Future Scope:</h3>
+							<ol>
+								<li>Integration of advanced smart grid algorithms for adaptive load management.</li>
+								<li>Replacement of relay switching with solid-state devices for faster response.</li>
+								<li>Expansion to multi-transformer systems with cloud-based analytics and AI prediction.</li>
+							</ol>
+
+							<h3>References:</h3>
+							<ol>
+								<li>M. H. Rashid, <em>Power Electronics: Circuits, Devices and Applications</em>, 4th edition.</li>
+								<li>ESP32 Datasheet, Espressif Systems.</li>
+								<li>IoT-based energy monitoring and smart grid research papers (IEEE Transactions on Power Systems).</li>
+							</ol>
+						</article>
+
+				</div>
+			</div>
+
+		<!-- Sidebar -->
+			<div id="sidebar">
+
+				<!-- Logo / Name -->
+					<h1 id="logo"><a href="#">Md. Murad Mia</a></h1>
+
+				<!-- About Me Section -->
+					<section id="about" class="box text-style1">
+						<div class="inner">
+							<p>
+								<strong>About Me:</strong> EEE Student at RUET | Carmichael College, Rangpur | Interested in Engineering, Technology & Innovative Solutions.
+							</p>
+						</div>
+					</section>
+
+				<!-- Contact Section -->
+					<section id="contact" class="box text-style1">
+						<div class="inner">
+							<p>
+								<strong>Contact:</strong><br />
+								<a href="mailto:2201139@student.ruet.ac.bd">2201139@student.ruet.ac.bd</a>
+							</p>
+						</div>
+					</section>
+
+				<!-- Copyright -->
+					<ul id="copyright">
+						<li>&copy; Md. Murad Mia. All rights reserved.</li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
